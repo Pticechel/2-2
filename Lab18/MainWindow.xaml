@@ -1,0 +1,35 @@
+﻿<Window x:Class="Lab18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="1000" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="Height">
+    <StackPanel>
+        <RadioButton Margin="5" Name="Radio4">
+            <WrapPanel>
+                <Image Source="F:\Из диска С\ИИТТ\Лаб. Работы\4 семен\ТП\Lab18\1.PNG" Height="60" />
+                <Label Content="p" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r1TextD" />
+                <Label Content="x" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r2TextD" />
+                <Label Content="f" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r3TextD" />
+                <Label Content="y" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r4TextD" />
+                <Label Content="N" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r7TextD" />
+                <Label Content="K" VerticalAlignment="Center" />
+                <TextBox Text="0,00" Width="70" 
+                         VerticalAlignment="Center" Name="r8TextD" />
+            </WrapPanel>
+        </RadioButton>
+        <Button Content="Считать" Width="100" Click="Calc_Click"/>
+    </StackPanel>
+
+
+</Window>
